@@ -1,4 +1,6 @@
 #Crear un entorno virtual con virtualenv -p python ,crear el nombre del entorno virtual Ex:Clase4
+#instalar con sudo apt install
+#ir a la raiz y poner Spurce ativate 
 #Machine learning: aprendizaje supervisado #Deep learning : aprenidzaje no supervisado
 # top down : es basado en sensores o caracteristicas para jutificar la falta de conocimiento
 # botton down: *es una inteligencia supervisada a la cual se le puede entrenar o ensenar.
