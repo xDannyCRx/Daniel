@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	TRIBUNAL SUPREMO DE ELECCIONES
+</title><meta content="Ing. Didier Barrios Morales / K.S.CH 12/06/2008" name="dc.creator" />
+    <style type="text/css">
+        .style1
+        {
+            font-family: Helvetica;
+        }
+    </style>
+</head>
+<body bgcolor="#8F9DA8">
+
+
+        <table width="100%" align="center">
+            <tr>
+                <td align="center"><img id="Image2" src="imagenes/encabezado.png" alt="Tribunal Supremo de Elecciones, Costa Rica, Consultas Civiles" height="85" width="1055" border="0" /></td>
+            </tr>
+        </table>
+
+    <form name="form1" method="post" action="./error_trans.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA5MDYwNDIyOA9kFgICBQ9kFgQCAQ8PFgIeBFRleHQFZk5vIHNlIGVuY29udHLDsyBpbmZvcm1hY2nDs24gZW4gbGEgYmFzZSBkZSBkYXRvcyByZWdpc3RyYWwgY2l2aWwgcXVlIGNvaW5jaWRhIGNvbiBsb3MgZGF0b3MgYXBvcnRhZG9zLmRkAgMPDxYCHwAFI0Zhdm9yIHZlcmlmaXF1ZSBlIGludGVudGUgZGUgbnVldm8uZGRk43zmukvRxjmx/dVj1nP/jGekeQDbwITBCgmNUCBzJJU=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3634F256" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJgZ670rF0VEtn+DVmVGcjhzfg78Z8BXhXifTCAVkevdzuOcgfpO0H8qMucjDDQsJkio0C4y6Kvk0KaO4xx3ikC" />
+    <div id="Didier">
+       
+    
+    </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <table style="width: 1032px" align="center">
+            <tr>
+                <td style="height: 21px">
+                </td>
+                <td align="center" 
+                    style="font-weight: bold; font-size: large; color: #ffffff; height: 21px" 
+                    class="style1">
+                    <span id="lblmensaje1" tabindex="1">No se encontró información en la base de datos registral civil que coincida con los datos aportados.</span></td>
+                <td style="height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 21px">
+                </td>
+                <td align="center" 
+                    style="font-weight: bold; font-size: large; color: #ffffff; height: 21px" 
+                    class="style1">
+                    <span id="lblMensaje2" tabindex="2">Favor verifique e intente de nuevo.</span></td>
+                <td style="height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 72px">
+                </td>
+                <td align="center" style="height: 72px">
+                    &nbsp;<input type="submit" name="Button1" value="Regresar" id="Button1" tabindex="3" AlternateText="Regresar" />
+                    <br />
+                </td>
+                <td style="height: 72px">
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,475 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="X-UA-Compatible" content="IE=9" /><meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" language="javascript"></script>
+
+    <script type="text/javascript">
+    document.onkeyup = PresTab;
+
+    function PresTab(e) {
+        var element = document.activeElement;
+        var tabIndex = element.tabIndex != "" ? element.tabIndex : null;
+        var keycode = (window.event) ? event.keyCode : e.keyCode;
+        if (keycode == 9)
+            if (tabIndex == 151) {
+            $('[tabindex=2]').focus();
+
+        }
+    }
+    </script>
+
+    <title>
+	TRIBUNAL SUPREMO DE ELECCIONES - Detalle de la Persona
+</title><meta content="Ing. Didier Barrios Morales / K.S.CH 12/06/2008" name="dc.creator" />
+    <script language="javascript" type="text/javascript">
+
+        function TABLE1_onclick() {
+        }
+
+    </script>
+    <style type="text/css">
+        .style1
+        {
+            font-family: "Helvetica";
+            font-size: small;
+        }
+        .style3
+        {
+            color: #FFFFFF;
+        }
+        .style4
+        {
+            font-size: medium;
+        }
+        .style5
+        {
+            height: 19px;
+        }
+    </style>
+</head>
+<body bgcolor="#8F9DA8">
+    <script type="text/javascript">
+        $("body").on('keypress', function (e) {
+            var element = document.activeElement;
+            if (e.which == 13) {
+                var tabIndex = element.tabIndex != "" ? element.tabIndex : null;
+                if (tabIndex != null) {
+
+                    var selector = "td[tabindex='" + tabIndex + "'] a";
+
+                    var accion = $(selector).attr("href");
+
+                    if (typeof accion != "undefined") {
+                        var arregloAcciones = accion.split(':');
+                        if (arregloAcciones.length >= 1) {
+                            if (arregloAcciones[1].indexOf("doPostBack") != -1)
+                                eval(arregloAcciones[1]);
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    <table width="100%" align="center">
+        <tr>
+            <td align="center">
+                <img id="Image2" tabindex="1" src="imagenes/encabezado.png" alt="Tribunal Supremo de Elecciones, Costa Rica, Consultas Civiles" height="85" width="1055" border="0" />
+            </td>
+        </tr>
+    </table>
+    <form name="form1" method="post" action="./resultado_persona.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIwNDExMTE1NjkPZBYCAgUPZBYKAg0PZBYCZg9kFiYCAw8PFgQeBFRleHQFJVNPTElDSVRBUiBDRVJUSUZJQ0FDSU9OIERFIE1BVFJJTU9OSU8eB1Rvb2xUaXAFJVNPTElDSVRBUiBDRVJUSUZJQ0FDSU9OIERFIE1BVFJJTU9OSU9kZAIJDw8WAh4HVmlzaWJsZWhkZAINDw8WAh8CaGRkAhMPDxYCHwAFCTExNDMxMDc0NmRkAhcPDxYCHwAFCjI1LzA1LzE5OTBkZAIbDw8WAh8ABRpKT1NFIERBTklFTCBBTkdVTE8gWlVNQkFET2RkAh8PDxYCHwAFDUNPU1RBUlJJQ0VOU0VkZAIjDw8WAh8ABQEgZGQCJw8PFgIfAAUIMjkgQcORT1NkZAIrDw8WAh8ABSFDQVJMT1MgRkVSTkFORE8gQU5HVUxPIEVDSEVWRVJSSUFkZAIvDw8WAh8ABQJOT2RkAjMPDxYCHwAFCTYwMTc2MDkzNmRkAjsPDxYCHwAFHk1BUklBIERFTCBST0NJTyBaVU1CQURPIENBU1RST2RkAkEPDxYCHwAFATBkZAJDDw8WAh8ABQZDQVNBRE9kZAJFDw8WAh8ABQEyZGQCSQ8PFgIfAGVkZAJNDw8WAh8ABQlNQVNDVUxJTk9kZAJPDw8WAh8AZWRkAh8PDxYCHwBlZGQCJw9kFgJmD2QWAgIDDzwrABECARAWABYAFgAMFCsAAGQCKQ9kFgJmD2QWAgIDDzwrABECARAWABYAFgAMFCsAAGQCKw9kFgJmD2QWAgIDDzwrABECARAWABYAFgAMFCsAAGQYBAUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgQFC0ltYWdlSW5pY2lvBRNJbWFnZUNvbnN1bHRhQ2VkdWxhBRNJbWFnZUNvbnN1bHRhTm9tYnJlBQpJbWFnZVNhbGlyBQxHcmlkdm90YWNpb24PZ2QFD0dyaWRtYXRyaW1vbmlvcw9nZAUJR3JpZGhpam9zD2dkE25RN2nh6BlT827JAGuduc1B6HGqiukrWhXj455ImxA=" />
+
+
+<script src="/consulta_persona/ScriptResource.axd?d=1axD5s9CEJcl9zbW-Cfq-vCbSjXYUUUUBRjUV1Ba3opyCH0Ayo8B2kChc3iD-_h9eumWts7NMTqaluCj2TMpRrcPLUsQGMuNLNTdstiF4BQpuNiY1C8aKVI8REMDL0aF7GyPBVwznxsejQpCy51rff0fQ7tIxLwf6nI95xxS8-o1&amp;t=10c151ff" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2F35004D" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABFOrJdjezKJy7MGGfr2oCRMiqbymbVNf9U++jDqKpBZeKfpigIS2tjkEVbbLpJMXRKuK+c1zGEqN0QiOtSVIjbTo8XTvMemOeiTsiCv52YIemVikE++yEdoHTLugZV7sMg9MKWwyYnyGaRupuuiPjUTpRd+w+p8QgmIF/xj83k64/we9+BwVz5Ihp+bC78EPFMCfHJxCCGkqx0cEcFZIWbctTfNpOz0CH4vKngBfzxDIS2hNtLCXCKq92TKMjYS4CX24YOX6Ab2AoRRJXYcN6RPb/5cgUWoPLK9FRe9Wehz9MYrrw85uciTs0i4KdeN/lBd3VPD6Wym8us3eHD1WYbKZrHMfDaOuX2c5DuODJSeiyxdfR4goyG/ve0E/70K40uVJTTmPOVftyFF8GPF6MYF" />
+    <table width="100%" align="center">
+        <tr>
+            <td align="center" width="10%">
+            </td>
+            <td align="center" width="80%">
+                <table height="40" border="0" align="center" style="width: 619px">
+                    <tr>
+                        <td align="center">
+                            <input type="image" name="ImageInicio" id="ImageInicio" tabindex="2" src="imagenes/inicio.png" alt="Menú inicio" border="0" />
+                        </td>
+                        <td align="center">
+                            <input type="image" name="ImageConsultaCedula" id="ImageConsultaCedula" tabindex="3" src="imagenes/consultacedula.png" alt="Menú consultar cédula" border="0" />
+                        </td>
+                        <td align="center">
+                            <input type="image" name="ImageConsultaNombre" id="ImageConsultaNombre" tabindex="4" src="imagenes/consultanombre.png" alt="Menú consultar nombre" border="0" />
+                        </td>
+                        <td align="center">
+                            <input type="image" name="ImageSalir" id="ImageSalir" tabindex="5" src="imagenes/salir.png" alt="Menú salir" border="0" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td align="center" width="10%">
+            </td>
+        </tr>
+    </table>
+    
+    <table style="width: 1082px !important;" align="center">
+        <tr>
+            <td style="height: 21px; text-align: center;" bgcolor="#6B7D8B" colspan="3">
+                <strong style="font-family: 'Helvetica'; font-size: medium; color: #FFFFFF">
+                    <span id="Label4" tabindex="6">SOLICITUD DE CERTIFICACIONES</span></strong>
+            </td>
+        </tr>
+    </table>
+    &nbsp;
+    
+    <div id="UpdatePanel4">
+	
+            <table style="width: 1082px !important;" align="center">
+                <tr>
+                    <td style="height: 21px; text-align: center;" bgcolor="#BECAD0" colspan="3">
+                        <a id="LinkButton6" tabindex="7" href="javascript:__doPostBack(&#39;LinkButton6&#39;,&#39;&#39;)"><font face="Helvetica">SOLICITAR CERTIFICACION DE NACIMIENTO</font></a>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        <a id="LinkButton5" tabindex="8" title="SOLICITAR CERTIFICACION DE MATRIMONIO" href="javascript:__doPostBack(&#39;LinkButton5&#39;,&#39;&#39;)"><font face="Helvetica">SOLICITAR CERTIFICACION DE MATRIMONIO</font></a>
+                        &nbsp; &nbsp; &nbsp;&nbsp;
+                        <a id="LinkButton7" disabled="disabled" tabindex="9"><font face="Helvetica">SOLICITAR CERTIFICACION DE DEFUNCION</font></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 12px" bgcolor="#3B4B53">
+                    </td>
+                    <td align="center" style="width: 823px; height: 12px" bgcolor="#3B4B53">
+                    </td>
+                    <td style="height: 12px" bgcolor="#3B4B53">
+                    </td>
+                </tr>
+            </table>
+            <table bgcolor="#6B7D8B" style="width: 1080px !important;" align="center">
+                <tr>
+                    <td bgcolor="#6B7D8B">
+                    </td>
+                    <td align="center" style="font-weight: bold; color: #ffffff; font-family: 'Helvetica'"
+                        class="style4" bgcolor="#6B7D8B">
+                        <span id="Label5" tabindex="10">DETALLE DEL NACIMIENTO PARA ESTA PERSONA</span>
+                    </td>
+                    <td bgcolor="#6B7D8B">
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#6B7D8B">
+                    </td>
+                    <td align="center" bgcolor="#6B7D8B">
+                        
+                        &nbsp;&nbsp;
+                        
+                    </td>
+                    <td bgcolor="#6B7D8B" colspan="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 23px" bgcolor="#6B7D8B">
+                    </td>
+                    <td align="center" style="height: 23px" bgcolor="#6B7D8B">
+                        
+                    </td>
+                    <td style="height: 23px" bgcolor="#6B7D8B">
+                    </td>
+                </tr>
+            </table>
+            <table border="0" bordercolor="#BECAD0" bordercolorlight="#BECAD0" style="width: 1080px !important;"
+                bgcolor="#BECAD0" id="TABLE1" align="center">
+                <tr>
+                    <td style="width: 194px; height: 25px; color: #ffffff; font: caption;" bgcolor="Black">
+                        <span class="style1">
+                            <span id="Label6" tabindex="13">Número de Cédula</span>
+                        </span>:
+                    </td>
+                    <td style="width: 333px; height: 25px; border-top-style: none; border-right-style: none;"
+                        bgcolor="#BECAD0">
+                        <span id="lblcedula" tabindex="14" style="display:inline-block;"><font face="Helvetica" color="#C00000">114310746</font></span>
+                    </td>
+                    <td style="width: 164px; height: 25px; color: #ffffff; font: caption;" bgcolor="Black"
+                        class="style1">
+                        <span class="style1">
+                            <span id="Label7" tabindex="32">Fecha Nacimiento</span>
+                        </span>:
+                    </td>
+                    <td style="height: 25px; width: 278px;" bgcolor="#BECAD0">
+                        <span id="lblfechaNacimiento" tabindex="33" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">25/05/1990</font></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="Black" style="width: 194px; height: 25px; color: #ffffff; font: caption;">
+                        <span class="style1">
+                            <span id="Label8" tabindex="15">Nombre Completo</span>
+                        </span>:
+                    </td>
+                    <td bgcolor="#BECAD0" style="width: 333px; height: 25px; border-top-style: none;
+                        border-right-style: none;">
+                        <span id="lblnombrecompleto" tabindex="16" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">JOSE DANIEL ANGULO ZUMBADO</font></span>
+                    </td>
+                    <td bgcolor="Black" class="style1" style="width: 164px; height: 25px; color: #ffffff;
+                        font: caption;">
+                        <span class="style1">
+                            <span id="Label9" tabindex="34">Nacionalidad</span>
+                        </span>:
+                    </td>
+                    <td bgcolor="#BECAD0" style="height: 25px; width: 278px;">
+                        <span id="lblnacionalidad" tabindex="35" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">COSTARRICENSE</font></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="Black" style="width: 194px; height: 25px; color: #ffffff; font: caption;">
+                        <span class="style1">
+                            <span id="Label10" tabindex="17">Conocido Como</span>
+                        </span>:
+                    </td>
+                    <td bgcolor="#BECAD0" style="width: 333px; height: 25px; border-top-style: none;
+                        border-right-style: none;">
+                        <span id="lblconocidocomo" tabindex="18" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy"> </font></span>
+                    </td>
+                    <td bgcolor="Black" class="style1" style="width: 164px; height: 25px; color: #ffffff;
+                        font: caption;">
+                        <span class="style1">
+                            <span id="Label11" tabindex="36">Edad</span>
+                        </span>:
+                    </td>
+                    <td bgcolor="#BECAD0" style="height: 25px; width: 278px;">
+                        <span id="lbledad" tabindex="37" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">29 AÑOS</font></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 194px; height: 25px; color: #ffffff;" bgcolor="Black" class="style1">
+                        <span id="Label12" tabindex="19">Nombre del Padre:</span>
+                    </td>
+                    <td style="width: 333px; height: 25px; border-top-style: none; border-right-style: none;"
+                        bgcolor="#BECAD0">
+                        <span id="lblnombrepadre" tabindex="20" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">CARLOS FERNANDO ANGULO ECHEVERRIA</font></span>
+                    </td>
+                    <td style="width: 164px; height: 25px; color: #ffffff; font: caption;" bgcolor="Black"
+                        title="Tribunal Supremo de Elecciones - Costa Rica" class="style1">
+                        <span class="style1">
+                            <span id="Label13" tabindex="38">Marginal</span>
+                        </span>:
+                    </td>
+                    <td style="height: 25px; width: 278px;" bgcolor="#BECAD0">
+                        &nbsp;<span id="lblLeyendaMarginal" tabindex="39" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">NO</font></span>
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="Black" style="font: caption; width: 194px; color: #ffffff; height: 25px">
+                        <span class="style1">
+                            <span id="Label14" tabindex="21">Identificación Padre</span>
+                        </span>
+                    </td>
+                    <td style="width: 333px; border-top-style: none; border-right-style: none; height: 25px"
+                        bgcolor="#BECAD0">
+                        <span id="lblid_padre" tabindex="22" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">601760936</font></span>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td style="width: 278px; height: 25px" bgcolor="#BECAD0">
+                        <input type="hidden" name="hdnCodigoAccionMarginal" id="hdnCodigoAccionMarginal" value="1" />
+                        <input type="hidden" name="hdnFechaSucesoMatrimonio" id="hdnFechaSucesoMatrimonio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 194px; height: 25px; color: #ffffff; font: caption;" bgcolor="Black">
+                        <span class="style1">
+                            <span id="Label15" tabindex="23">Nombre de la Madre</span>
+                        </span>:
+                    </td>
+                    <td style="width: 333px; height: 25px; border-top-style: none; border-right-style: none;"
+                        bgcolor="#BECAD0">
+                        <span id="lblnombremadre" tabindex="24" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">MARIA DEL ROCIO ZUMBADO CASTRO</font></span>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td style="height: 25px; width: 278px; text-align: center;" align="left" bgcolor="#BECAD0">
+                        <a id="LinkButton11" tabindex="40" title="Ver más detalles del nacimiento" href="javascript:__doPostBack(&#39;LinkButton11&#39;,&#39;&#39;)" style="display:inline-block;text-align: center"><font face="Helvetica">Ver Más Detalles</font></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="Black" style="width: 194px; color: #ffffff; height: 25px" class="style1">
+                        <span id="Label16" tabindex="25">Identificación Madre</span>
+                    </td>
+                    <td style="width: 333px; border-top-style: none; border-right-style: none; height: 25px"
+                        bgcolor="#BECAD0">
+                        <span id="lblid_madre" tabindex="26" style="display:inline-block;color: #333333"><font face="Helvetica" color="Navy">0</font></span>
+                    </td>
+                    <td>
+                    </td>
+                    <td style="width: 278px; height: 25px" align="center" bgcolor="#BECAD0">
+                        
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 194px; height: 15px; color: #ffffff; font: caption;" bgcolor="Black">
+                        
+                    </td>
+                    <td style="width: 333px; height: 15px; border-top-style: none; border-right-style: none;"
+                        bgcolor="#BECAD0">
+                        <span id="lbldefuncion2" tabindex="28" style="display:inline-block;"><b><font face="Helvetica" color="Red"></font></b></span>
+                        
+                    </td>
+                    <td>
+                    </td>
+                    <td style="height: 15px; width: 278px;" align="center" bgcolor="#BECAD0">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td style="width: 333px; border-top-style: none; border-right-style: none; height: 15px"
+                        bgcolor="#BECAD0">
+                        <span id="lbldefunciontemporal" tabindex="30" style="display:inline-block;"><b><font face="Helvetica" color="Red"></font></b></span>
+                        <span id="lblNota" tabindex="31" style="display:inline-block;"><b><font face="Helvetica" color="Red"></font></b></span>
+                    </td>
+                    <td>
+                    </td>
+                    <td align="center" style="width: 278px; height: 15px" bgcolor="#BECAD0">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        
+</div>
+    <br />
+    <table style="width: 1080px !important; font-size: 13px; color: #FFFFFF;" bgcolor="#BECAD0"
+        id="TABLE3" align="center">
+        <tr>
+            <td style="text-align: right; font-size: 12px; font-family: Helvetica;" bgcolor="#3B4B53">
+                <span><strong>
+                    <span id="Label17" tabindex="41">Si tiene inconvenientes al desplegar la información de Hijos Registrados, 
+                    Matrimonios Registrados y/o Lugar de Votación, por favor siga las siguientes 
+                    instrucciones:</span>
+                </strong></span><span style="color: #FFFFFF"></span>
+            </td>
+            <td bgcolor="#3B4B53" style="font-size: 12px; font-family: Helvetica;">
+                <strong><a href="Docs/Vista_de_Compatibilidad.pdf" target="_blank" style="text-decoration:none;" tabindex="42"><span
+                    class="style3">
+                    <span id="Label18" tabindex="43">Compatibilidad</span>
+                </span></a></strong><span></span>
+            </td>
+        </tr>
+    </table>
+    <table style="width: 1054px !important;" bgcolor="#BECAD0" id="TABLE2" align="center">
+        <tr>
+            <td colspan="2" align="center" style="width: 351px !important; height: 23px; background-color: #6B7D8B;
+                color: #ffffff; font: caption;" bgcolor="#6B7D8B">
+                <span class="style1">
+                    <a id="LinkButton1" tabindex="44" href="javascript:__doPostBack(&#39;LinkButton1&#39;,&#39;&#39;)" style="color: White;
+                        text-decoration: none; cursor: default;"><span id="Label19" tabindex="45">HIJOS REGISTRADOS</span></a>
+                </span>
+            </td>
+            <td colspan="2" align="center" style="width: 352px !important; height: 23px; background-color: #6B7D8B;
+                color: #ffffff; font-family: 'Helvetica';" bgcolor="#6B7D8B" class="style1">
+                <a id="LinkButton2" tabindex="70" href="javascript:__doPostBack(&#39;LinkButton2&#39;,&#39;&#39;)" style="color: White;
+                    text-decoration: none; cursor: default;"><span id="Label20" tabindex="71">MATRIMONIOS REGISTRADOS</span></a>
+            </td>
+            <td colspan="2" align="center" style="width: 351px !important; height: 23px; background-color: #6B7D8B; 
+                color: #ffffff;" bgcolor="#6B7D8B" class="style1">
+                <a id="LinkButton3" tabindex="130" href="javascript:__doPostBack(&#39;LinkButton3&#39;,&#39;&#39;)" style="color: White;
+                    text-decoration: none; cursor: default;"><span id="Label21" tabindex="131">LUGAR DE VOTACION</span></a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width: 291px !Important;" bgcolor="#BECAD0">
+                <span id="Label2" tabindex="46" style="display:inline-block;font-family: Trebuchet MS; vertical-align: text-top;"><font face="Helvetica" size="1">LA CONSULTA DE HIJOS SOLO DESPLEGARÁ INFORMACIÓN DE LOS REGISTROS DE NACIMIENTOS EN LOS CUALES SE ENCUENTRE CAPTURADO EL NÚMERO DE CÉDULA DE LA PERSONA CONSULTADA</font></span>
+            </td>
+            <td align="right" style="width: 60px !Important;" bgcolor="#BECAD0">
+                <div id="ctl06">
+	
+                        <input type="submit" name="btnMostrarNacimiento" value="Mostrar" id="btnMostrarNacimiento" tabindex="68" style="font-family: Helvetica;
+                            font-size: x-small" />
+                        
+                    
+</div>
+            </td>
+            <td align="center" style="width: 292px !Important;" bgcolor="#BECAD0">
+                <span id="Label3" tabindex="72" style="display:inline-block;font-family: 'Trebuchet MS'"><font face="Helvetica" size="1">ALGUNOS MATRIMONIOS INSCRITOS ANTES DE 1960 NO ESTAN DISPONIBLES PARA SER CONSULTADOS EN LINEA. LA CONSULTA DE ESTADO CIVIL SOLO ES VALIDA PARA PERSONAS NACIDAS A PARTIR DE 1950</font></span>
+                <br />
+                
+            </td>
+            <td align="right" style="width: 60px !Important;" bgcolor="#BECAD0">
+                <div id="ctl08">
+	
+                        <input type="submit" name="btnMostrarMatrimonios" value="Mostrar" id="btnMostrarMatrimonios" tabindex="128" style="font-family: Helvetica;
+                            font-size: x-small" />
+                        
+                    
+</div>
+            </td>
+            <td align="center" style="width: 291px !Important;" bgcolor="#BECAD0">
+                <span id="Label22" tabindex="151" style="display:inline-block;font-family: 'Trebuchet MS'"><font face="Helvetica" size="1"></font></span>
+            </td>
+            <td align="right" style="width: 60px !Important;" bgcolor="#BECAD0">
+                <div id="ctl10">
+	
+                        <input type="submit" name="btnMostrarVotacion" value="Mostrar" id="btnMostrarVotacion" tabindex="149" style="font-family: Helvetica;
+                            font-size: x-small" />
+                        
+                    
+</div>
+            </td>
+        </tr>
+        <tr>
+             <td colspan="2" align="center" style="width: 351px !Important; vertical-align: top;" bgcolor="#BECAD0">
+                <div id="UpdatePanel1">
+	
+                             
+                                <div>
+
+	</div>
+                                <br />
+                                <div id="UpdateProgress1" style="display:none;">
+		
+                                      
+                                        <span id="Label23"><font face="Helvetica" size="3">Un momento por favor...</font></span><br />
+                                        <img src="imagenes/circulo.gif" style="width: 32px; height: 32px" />
+                                    
+	</div>                                
+                            
+</div>
+            </td>
+            <td colspan="2" align="center" style="width: 352px !Important; vertical-align: top;" bgcolor="#BECAD0">
+               <div id="UpdatePanel2">
+	
+                             <a id="LinkButton4" tabindex="74" href="javascript:__doPostBack(&#39;LinkButton4&#39;,&#39;&#39;)" style="text-decoration:none;"></a>
+                                <div>
+
+	</div>
+                                <br />
+                               <div id="UpdateProgress2" style="display:none;">
+		
+                                        
+                                        <span id="Label24"><font face="Helvetica" size="3">Un momento por favor...</font></span><br />
+                                        <img src="imagenes/circulo.gif" style="width: 32px; height: 32px" />
+                                    
+	</div>
+                            
+</div>
+            </td>
+            <td colspan="2" align="center" style="width: 351px !Important; vertical-align: top;" bgcolor="#BECAD0">
+               <div id="UpdatePanel3">
+	
+                            
+                                <div>
+
+	</div>
+                                </td><br />    
+                           
+                            
+</div>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
